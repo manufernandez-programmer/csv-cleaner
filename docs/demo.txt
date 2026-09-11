@@ -1,0 +1,21 @@
+$ python cleaner.py sample.csv
+Warning: missing email in row 4.
+Warning: basic email check failed in row 5.
+Warning: basic email check failed in row 6.
+Cleaned file created: sample_limpios.csv
+
+MARS CSV Cleaner
+
+Rows received:       6
+Duplicates removed:  1
+Missing emails:      1
+Invalid emails:      2
+Rows exported:       5
+
+$ cat sample_limpios.csv
+product,email,city
+Demo Monitor,monitor@example.com,Sample City
+Demo Keyboard,keyboard@example.com,Example Town
+Demo Mouse,,Fictional Bay
+Demo Cable,not-an-email,Example Town
+Demo Adapter,adapter@example,Sample City

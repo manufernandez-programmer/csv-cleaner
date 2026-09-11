@@ -1,4 +1,6 @@
-producto,email,ciudad
-Monitor,ventas@mars.com,Buenos Aires
-Teclado,teclado@mars.com,Cordoba
-Mouse,,Rosario
+product,email,city
+Demo Monitor,monitor@example.com,Sample City
+Demo Keyboard,keyboard@example.com,Example Town
+Demo Mouse,,Fictional Bay
+Demo Cable,not-an-email,Example Town
+Demo Adapter,adapter@example,Sample City
