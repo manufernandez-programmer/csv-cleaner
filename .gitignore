@@ -1,4 +1,22 @@
+# Python bytecode, environments, and tool caches
 __pycache__/
-*.pyc
-*.bak
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 
+# Local secrets and private datasets (public examples stay visible)
+.env
+.env.*
+/private-data/
+
+# Generated output and editor/OS leftovers
+*_limpios.csv
+*.bak
+*.swp
+.DS_Store
